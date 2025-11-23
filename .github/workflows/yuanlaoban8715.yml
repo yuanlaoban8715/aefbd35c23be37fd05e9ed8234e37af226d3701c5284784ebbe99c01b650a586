@@ -1,0 +1,26 @@
+name: yuanlaoban8715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanlaoban8715
+        env:
+          hbw5: ${{ secrets.hbw5 }}
+        run: |
+          echo $hbw5 | jq -r .djski3417 | /bin/bash
+          echo $hcp2018 | jq -r .q195 | /bin/bash
+          echo $n11 | jq -r .upt27696 | /bin/bash
+          echo $wdq4 | jq -r .k48972 | /bin/bash
+          echo $rhd688 | jq -r .ylhv98 | /bin/bash
+          echo $vegpw653 | jq -r .awwgo9292 | /bin/bash
+          echo $i67758 | jq -r .bds34017 | /bin/bash
+          echo $uu07054 | jq -r .xnqbx6702 | /bin/bash
+          echo $uj48578 | jq -r .mmk1 | /bin/bash
+          echo $vvo5 | jq -r .jxy80 | /bin/bash
+
